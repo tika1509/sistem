@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tentang Kami</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<div style="background-color: #0B8F30;width: 100%">
+		<div class="dropdown">
+			<img class="dropbtn" src="gambar/menu.png" width="45px" height="45px" onclick="myFunction()">
+			<div id="myDropdown" class="dropdown-content">
+				<a href="index.html"><img src="gambar/home.png"><span style="margin-left: 5px; font-size: 20px;">Home</span></a>
+				<a href="game.html"><img src="gambar/game.png"><span style="margin-left: 5px; font-size: 20px;">Game</span></a>
+				<a href="quiz.html"><img src="gambar/quiz.png"><span style="margin-left: 5px; font-size: 20px;">Quiz</span></a>
+				<a href="about.html"><img src="gambar/about.png"><span style="margin-left: 5px; font-size: 20px;">Tentang Kami</span></a>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="header-center">
+					<img src="gambar/male1.png">
+					<div class="header-center-content" style="padding-left: 10px; padding-right: 10px;">	
+						<span style="font-size: 24px">TEORITY</span><br>
+						<span style="font-size: 16px; margin: 0; padding: 0">MEDIA AJAR INTERAKTIF</span><br>
+						<span style="font-size: 16px; margin: 0; padding: 0">BERPETUALANG DI DALAM TUBUH MANUSIA</span>
+					</div>
+					<img src="gambar/female1.png">
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div class="top-wrapper-lessons">
+		<div align="center" style="padding-top: 10px">
+			<img src="gambar/tentang-kami.png" width="70%" height="120px">
+		</div>
+		<div align="center" style="padding-top: 10px">
+			<img src="gambar/dosen1.png" width="30%" height="100px">
+		</div>
+		<div  align="center" style="padding-top: 10px">
+			<img src="gambar/riko1.png" width="30%" height="100px">
+			<img src="gambar/devianda1.png" width="30%" height="100px">
+			<img src="gambar/robi1.png" width="30%" height="100px">
+			<img src="gambar/avelia1.png" width="30%" height="100px">
+			<img src="gambar/khairunnisa1.png" width="30%" height="100px">
+			<img src="gambar/vinoza1.png" width="30%" height="100px">
+		</div>
+
+		<div class="footer">
+			<p>Ulas Kami :</p>
+			<div class="footer-logo">
+				<a href="https://www.instagram.com"><img src="gambar/instagram.png"/></a>
+				<a href="https://www.youtube.com"><img src="gambar/youtube.png"/></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	}
+	
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+</script>

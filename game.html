@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GAME</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+	<!-- <img src="gambar/background-game.png" style="position: absolute; background-size: cover; width: 100%; height: 100%"> -->
+<body style="background-image: url(gambar/polos.png); width: 100%;height: 100%; background-size: cover; background-repeat: no-repeat;">
+	<div style="background-color: #0B8F30;width: 100%; ">
+		<div class="dropdown">
+			<img class="dropbtn" src="gambar/menu.png" width="45px" height="45px" onclick="myFunction()">
+			<div id="myDropdown" class="dropdown-content">
+				<a href="index.html"><img src="gambar/home.png"><span style="margin-left: 5px; font-size: 20px;">Home</span></a>
+				<a href="game.html"><img src="gambar/game.png"><span style="margin-left: 5px; font-size: 20px;">Game</span></a>
+				<a href="quiz.html"><img src="gambar/quiz.png"><span style="margin-left: 5px; font-size: 20px;">Quiz</span></a>
+				<a href="about.html"><img src="gambar/about.png"><span style="margin-left: 5px; font-size: 20px;">Tentang Kami</span></a>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="header-center">
+					<img src="gambar/male1.png">
+					<!-- <img class="logo" src="gambar/logo-unand1.png"> -->
+					<div class="header-center-content" style="padding-left: 10px; padding-right: 10px;">	
+						<span style="font-size: 24px">TEORITY</span><br>
+						<span style="font-size: 16px; margin: 0; padding: 0">MEDIA AJAR INTERAKTIF</span><br>
+						<span style="font-size: 16px; margin: 0; padding: 0">BERPETUALANG DI DALAM TUBUH MANUSIA</span>
+					</div>
+					<!-- <img class="logo" src="gambar/logo-tut-wuri-handayani1.png"> -->
+					<img src="gambar/female1.png">
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<!-- <div class="top-wrapper"> -->
+		<!-- <div class="container"> -->
+		<div width="100%" align="center" style="margin-top: 20px">
+			<img src="gambar/logo-unand1.png" style="float: left; width: 120px; height: 120px; padding-left: 15%;">
+			<img src="gambar/logo-game.png" style="width: 150px; height: 50px; padding-top: 20px; padding-right: 40px;">
+			<img src="gambar/logo-tut-wuri-handayani1.png" style="float: right; width: 120px; height: 120px; padding-right: 15%;">
+		</div>
+		<div align="center" style="margin-top: 50px">
+			<div style="text-align: center; width: 100%; margin: 20px 0">
+				<a href="game-pencernaan.html" style="padding: 5px 10px;display: inline-block; border-radius: 20px;text-align: center;box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);height: 70px; display: inline-flex;align-items: center;text-decoration: none;background-color: #CACD3C; color : #EA2957;margin-right: 2em;">
+					<img src="gambar/sistem-pencernaan.png" style="width: 40px;height: 50px;">
+					<p class="pClass">Sistem <br> Pencernaan</p>
+				</a>
+				<a href="game-darah.html" style="
+				padding: 5px 10px;
+	display: inline-block;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+    height: 70px;
+	display: inline-flex; 
+	align-items: center; 
+	text-decoration: none;
+	background-color: #219653;
+	color: #D6E339;
+	margin-left: 8em;
+	">
+					<img src="gambar/sistem-peredaran-darah.png" style="width: 40px;height: 50px;">
+					<p class="pClass">Sistem <br> Peredaran Darah</p>
+				</a>
+				<br>
+			</div>
+
+			<div>
+				<img align="center" src="gambar/logo-puzzle-anak.png" style=" width: 250px; height: 250px; margin-right: 40px; background-position: absolute"><br>
+			</div>
+
+			<div>
+				<a href="game-pernapasan.html" style="padding: 5px 10px;
+	display: inline-block;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+	/*width: 100%;*/
+    height: 70px;
+	display: inline-flex; 
+	align-items: center; 
+	text-decoration: none;
+	background-color: #31C5BC;
+	color: #000;
+	margin-top: 15px;
+    margin-right: 40px;;">
+					<img src="gambar/sistem-pernapasan.png" style="width: 40px;height: 50px;">
+					<p class="pClass">Sistem <br> Pernafasan</p>
+				</a>
+			</div>
+		</div>
+	
+	<div class="footer">
+		<p>Ulas Kami :</p>
+		<div class="footer-logo">
+			<a href="https://www.instagram.com"><img src="gambar/instagram.png"/></a>
+			<a href="https://www.youtube.com"><img src="gambar/youtube.png"/></a>
+		</div>
+	</div>
+	
+
+</body>
+</html>
+
+<script>
+	function myFunction() {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	}
+	
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+</script>

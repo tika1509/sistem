@@ -1,0 +1,44 @@
+/*@media all and (max-width: 1000px){
+	body{
+		background-image: url(gambar/kosong.png);
+		width: 100%;height: 100%; background-size: cover; background-repeat: no-repeat;
+	}
+}*/
+
+@media all and (max-width: 670px){
+	body{
+		width: 100%;
+	}
+	header{
+		width: 70%;
+		padding-left: 20px;
+
+	}
+	.dropdown{
+		/*left: 19.5em;*/
+	    width: 80px;	
+	    right: -10px;
+	}
+	.pencernaan {
+		width: 50%;
+		margin-right: 0;
+		margin-bottom: 2em;
+		justify-content: center;
+	}
+	.pernapasan {
+		/*width: 100%;*/
+		width: 50%;
+		justify-content: center;
+	}
+	.darah {
+		/*width: 100%;*/
+		width: 50%;
+		margin-left: 0;
+		margin-top: 1em;
+		justify-content: center;
+	}
+	.pClass {
+		padding-left: 10%;
+	}
+}
+
